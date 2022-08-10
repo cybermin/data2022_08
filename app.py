@@ -61,3 +61,5 @@ option = st.selectbox(
      df['영화명'])
 
 st.write('You selected:', option)
+df2 = df[df['영화명']==option]
+st.dataframe(df2)
